@@ -5,63 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link type="text/css" href="css\main_page.css" rel="stylesheet">
   <link type="text/css" href="css\bootstrap.css" rel="stylesheet">
   <title>Frontend Mentor | Intro component with sign up form</title>
 
 </head>
 <body>
-<main>
-  <section>
-    <header>
-        <h1>Learn to code by watching others</h1>
-    </header>
-    <article>
-      <p>
-        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
-        but understanding how developers think is invaluable.
-      </p>
-    </article>
-  </section>
+  <div id="bg_color">
+    <div id="bg_img">
 
-  <section>
-    <header>
-      <h2>Try it free 7 days then $20/mo. thereafter</h2>
-    </header>
-    <article >
-      <form class="" action="index.html" method="post">
-        <label for="first_name">
-          <input type="text" name="first_name" value="" placeholder="First Name" required>
-        </label><!--label first name-->
-        <label for="last_name">
-          <input type="text" name="last_name" value="" placeholder="Last Name" required>
-        </label><!--label last name-->
-        <label for="email_field">
-          <input type="email" name="email_field" value="" placeholder="Email Address" required>
-        </label><!--label email-->
-        <label for="password_field">
-          <input type="password" name="password_field" value="" placeholder="Password" required>
-        </label><!--label password-->
+  <main>
+  <div class="container">
+    <div class="row">
 
-        <button type="button" name="button"> Claim your free trial</button>
-        <label for="Terms">
-          <input type="checkbox" name="Terms" value="">
-        </label>
-        <p>By clicking the button, you are agreeing to our Terms and Services</p>
-      </form><!--end form-->
+      <section>
+        <div class=" col-xl-6 col-6" >
+          <header>
+              <h1>Learn to code by watching others</h1>
+          </header>
+          <article>
+            <p>
+              See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+              but understanding how developers think is invaluable.
+            </p>
+          </article>
+        </div><!-- end of first col-->
+      </section>
 
-    </article>
-  </section>
+      <section>
+        <div class=" col-xl-6 col-6">
+
+          <header>
+            <h2>Try it free 7 days then $20/mo. thereafter</h2>
+          </header>
+          <article >
+            <form class="" action="index.html" method="post">
+              <label for="first_name">
+                <input type="text" name="first_name" value="" placeholder="First Name" required>
+              </label><!--label first name-->
+              <label for="last_name">
+                <input type="text" name="last_name" value="" placeholder="Last Name" required>
+              </label><!--label last name-->
+              <label for="email_field">
+                <input type="email" name="email_field" value="" placeholder="Email Address" required>
+              </label><!--label email-->
+              <label for="password_field">
+                <input type="password" name="password_field" value="" placeholder="Password" required>
+              </label><!--label password-->
+
+              <button type="button" name="button"> Claim your free trial</button>
+              <label for="Terms">
+                <input type="checkbox" name="Terms" value="">
+              </label>
+              <p>By clicking the button, you are agreeing to our Terms and Services</p>
+            </form><!--end form-->
+
+          </article>
+        </div><!-- end of second col-->
+      </section>
+    </div><!-- end row class -->
+    </div><!-- end of container div -->
+
+    </main>
 
     <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/megaoy">Eduardo Sousa de Castro Ferreira(megaoy)</a>.
-    </p>
-</main>
+      <div class="container">
 
-  </footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://github.com/megaoy">Eduardo Sousa de Castro Ferreira(megaoy)</a>.
+        </p>
+
+
+      </div>
+    </footer>
+
+
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="js\bootstrap.js"></script>
+  </div><!-- end bdg img-->
+</div><!-- end bg color-->
   </body>
 </html>

@@ -1,0 +1,7 @@
+#bg_color{
+  background-color: hsla(0, 100%, 74%,0.8) ;
+}
+#bg_img{
+  background-image: url("../images/bg-intro-desktop.png");
+
+}
