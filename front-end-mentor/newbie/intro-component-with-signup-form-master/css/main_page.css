@@ -1,9 +1,20 @@
-html {
+html{
+  height: 100%;
 
+}
+body
+{
   background: url("../images/bg-intro-desktop.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-color: hsla(0, 100%, 74%,0.8) ;
+}
+main{
+  height: 100vh;
+}
+section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
