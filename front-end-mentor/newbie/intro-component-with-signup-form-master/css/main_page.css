@@ -1,7 +1,9 @@
-#bg_color{
-  background-color: hsla(0, 100%, 74%,0.8) ;
-}
-#bg_img{
-  background-image: url("../images/bg-intro-desktop.png");
+html {
 
+  background: url("../images/bg-intro-desktop.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: hsla(0, 100%, 74%,0.8) ;
 }
