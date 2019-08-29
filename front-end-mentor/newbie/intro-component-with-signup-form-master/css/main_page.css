@@ -3,14 +3,21 @@
   background: url("../images/bg-intro-desktop.png") no-repeat center center fixed;
   background-size: cover;
   background-color: hsla(0, 100%, 74%,0.8) ;
+
 }
 
 html,body{
   height: 100%;
+
 }
 main{
   height: 100vh;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+
 }
+
 section {
   height: 100%;
   display: flex;
@@ -22,4 +29,17 @@ section {
 .card-purple{
   background-color: hsl(248, 32%, 49%) ;
   border-radius: 20px;
+}
+
+footer{
+  position: absolute;
+  padding: 1em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
+   margin-bottom: 0; // removes default <p> tag margin from the bottom
+
 }
