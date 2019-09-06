@@ -68,3 +68,7 @@ footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
 .last-element-of-formm-group{
   margin-bottom: 0px !important;
 }
+
+#first-section{
+  padding-top: 160px;
+}
