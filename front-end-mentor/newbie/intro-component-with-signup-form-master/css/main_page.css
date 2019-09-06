@@ -44,6 +44,9 @@ footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
   width: 100%;
   background-color: hsl(154, 59%, 51%) !important;
 }
+.card-body{
+  padding: 40px !important;
+}
 
 #red_text{
   color: hsl(0, 100%, 74%);
@@ -54,8 +57,12 @@ footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
 .card-purple{
   background-color: hsl(248, 32%, 49%) ;
   border-radius: 10px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 
 }
 .card-purple-margin{
   margin-bottom: 24px;
+  border-radius: 10px !important;
+  border: 0px !important;
 }
