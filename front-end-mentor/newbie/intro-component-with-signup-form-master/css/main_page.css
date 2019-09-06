@@ -27,7 +27,9 @@ section {
   justify-content: center;
   align-items: center;
 }
-
+section header p{
+  margin-bottom: 0px;
+}
 footer{
   position: absolute;
   padding: 1em;
@@ -38,6 +40,7 @@ footer{
 }
 footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
    margin-bottom: 0; // removes default <p> tag margin from the bottom
+
 
 
 }
@@ -56,8 +59,8 @@ footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
 .card-purple{
   background-color: hsl(248, 32%, 49%) ;
   border-radius: 10px;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 
 }
 .card-purple-margin{
