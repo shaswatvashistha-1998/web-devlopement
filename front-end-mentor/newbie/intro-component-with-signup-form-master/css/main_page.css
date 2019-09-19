@@ -7,6 +7,13 @@
   background-color: #CCC;
 
 }
+#first-section{
+  padding-top: 160px;
+}
+main{
+  height: 100vh;
+  padding-top: 120px;
+}
 }
 @media (max-width: 375px){
   #bg_img
@@ -16,6 +23,10 @@
   background-color: hsla(0, 100%, 74%,0.8) ;
   //background-color: #CCC;
 
+}
+  main{
+    height: 100vh;
+    padding-top: 100px;
 }
 }
 /*channge background according to screen resolution*/
@@ -27,10 +38,7 @@ html,body{
   font-weight: 400, 500, 600, 700 !important;
 
 }
-main{
-  height: 100vh;
-  padding-top: 120px;
-}
+
 h1{
   font-weight: 800 !important;
   padding-bottom: 30px;
@@ -97,7 +105,4 @@ small{
 
 .shadow{
    box-shadow: 0 0.5rem 0rem rgba(0, 0, 0, 0.15) !important;
-}
-#first-section{
-  padding-top: 160px;
 }
