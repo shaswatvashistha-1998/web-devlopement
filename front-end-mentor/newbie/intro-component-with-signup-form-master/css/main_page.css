@@ -24,8 +24,11 @@ main{
   //background-color: #CCC;
 
 }
+#first-section{
+  padding-bottom: 60px;
+}
   main{
-    height: 100vh;
+    height: 170vh;
     padding-top: 100px;
 }
 }
