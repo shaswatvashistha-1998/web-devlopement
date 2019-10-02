@@ -66,6 +66,7 @@ footer{
   padding-right: 78px !important;
 
 }
+}
 /*channge background according to screen resolution*/
 html,body{
   height: 100%;
@@ -103,6 +104,7 @@ footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
 .btn{
   width: 100%;
   background-color: hsl(154, 59%, 51%) !important;
+  box-shadow: 0px 6px 0px hsl(153, 75%, 45%) !important;
 }
 
 #red_text{
@@ -127,8 +129,4 @@ small{
 }
 .last-element-of-formm-group{
   margin-bottom: 0px !important;
-}
-
-.shadow{
-   box-shadow: 0 0.5rem 0rem rgba(0, 0, 0, 0) !important;
 }
