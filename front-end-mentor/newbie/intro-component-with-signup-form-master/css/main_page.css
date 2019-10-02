@@ -14,6 +14,11 @@ main{
   height: 100vh;
   padding-top: 120px;
 }
+.card-body{
+  padding: 40px !important;
+  //color: hsl(249, 10%, 26%) !important;
+  color:hsl(248, 32%, 49%);
+}
 }
 @media (max-width: 375px){
   #bg_img
@@ -26,10 +31,35 @@ main{
 }
 #first-section{
   padding-bottom: 60px;
+  text-align: center;
 }
+  h1{
+    font-weight: 700 !important;
+  }
   main{
-    height: 170vh;
+    height: 190vh;
     padding-top: 100px;
+}
+footer{
+  top:950px;
+  text-align: center;
+}
+.input-lg{
+  height: 56px !important  ;
+}
+.card-body{
+  padding: 25px !important;
+  //color: hsl(249, 10%, 26%) !important;
+  color:hsl(248, 32%, 49%);
+}
+.btn{
+  height: 56px;
+}
+.last-element-of-formm-group{
+  text-align: center !important;
+  padding-left: 48px !important;
+  padding-right: 48px;
+  font-size: 12px !important;
 }
 }
 /*channge background according to screen resolution*/
@@ -40,12 +70,6 @@ html,body{
   font-size: 16px !important;
   font-weight: 400, 500, 600, 700 !important;
 
-}
-
-h1{
-  font-weight: 800 !important;
-  padding-bottom: 30px;
-  margin-bottom: 0px !important;
 }
 
 section {
@@ -76,11 +100,6 @@ footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
   width: 100%;
   background-color: hsl(154, 59%, 51%) !important;
 }
-.card-body{
-  padding: 40px !important;
-  //color: hsl(249, 10%, 26%) !important;
-  color:hsl(248, 32%, 49%);
-}
 
 #red_text{
   color: hsl(0, 100%, 74%);
@@ -107,5 +126,5 @@ small{
 }
 
 .shadow{
-   box-shadow: 0 0.5rem 0rem rgba(0, 0, 0, 0.15) !important;
+   box-shadow: 0 0.5rem 0rem rgba(0, 0, 0, 0) !important;
 }
