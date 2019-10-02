@@ -61,6 +61,10 @@ footer{
   padding-right: 48px;
   font-size: 12px !important;
 }
+.card-purple{
+  padding-left: 78px !important;
+  padding-right: 78px !important;
+
 }
 /*channge background according to screen resolution*/
 html,body{
