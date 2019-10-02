@@ -104,7 +104,8 @@ footer div p {  // Selects text inside a <p> tag that is inside a .footer <div>
 .btn{
   width: 100%;
   background-color: hsl(154, 59%, 51%) !important;
-  box-shadow: 0px 6px 0px hsl(153, 75%, 45%) !important;
+  box-shadow: 0px 6px 0px hsl(153, 75%, 35%) !important;
+
 }
 
 #red_text{
@@ -129,4 +130,7 @@ small{
 }
 .last-element-of-formm-group{
   margin-bottom: 0px !important;
+}
+.red_shawdown{
+  box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.2) !important;
 }
