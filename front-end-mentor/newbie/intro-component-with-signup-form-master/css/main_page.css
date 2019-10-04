@@ -11,8 +11,11 @@
   padding-top: 160px;
 }
 main{
-  height: 100vh;
+  height: 120vh;
   padding-top: 120px;
+}
+footer{
+  top: 110vh;
 }
 .card-body{
   padding: 40px !important;
@@ -37,11 +40,11 @@ main{
     font-weight: 700 !important;
   }
   main{
-    height: 190vh;
+    height: 200vh;
     padding-top: 100px;
 }
 footer{
-  top:950px;
+  top:180vh;
   text-align: center;
 }
 .input-lg{
@@ -133,4 +136,12 @@ small{
 }
 .red_shawdown{
   box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.2) !important;
+}
+.error-icon{
+  padding-right: 3rem;
+    background-repeat: no-repeat;
+    background-position: center right 0.53125rem;
+    background-size: 1.0625rem 1.0625rem;
+    background-image: url("../images/icon-error.svg") !important;
+
 }
