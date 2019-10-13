@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link type="text/css" href="css\main_page.css" rel="stylesheet">
   <link type="text/css" href="css\bootstrap.css" rel="stylesheet">
+  <link type="text/css" href="css\bootstrap.css" rel="stylesheet">
   <title>Frontend Mentor | Intro component with sign up form</title>
 
 </head>
@@ -55,30 +56,32 @@
                     <form  action="index.html" method="post" class="was-validated">
                     <div class="form-group">
 
-                      <input type="text" name="first_name" class="form-control input-lg error-icon" value="" placeholder="First Name" required>
+                      <input type="text" name="first_name" class="form-control input-lg error-icon" value="" placeholder="First Name"
+                      id="NameInput" required>
                       <div class="invalid-feedback text-right">First Name canot be empty</div>
 
                   </div><!--end formm-group-->
                     <div class="form-group">
 
-                      <input type="text" name="last_name" class="form-control input-lg error-icon" value="" placeholder="Last Name" required>
+                      <input type="text" name="last_name" class="form-control input-lg error-icon" value="" placeholder="Last Name"
+                      id="LastNameInput" required>
                       <div class="invalid-feedback text-right">Last Name canot be empty</div>
 
                   </div><!--end form-group-->
                     <div class="form-group">
 
-                      <input type="email" name="email_field" class="form-control input-lg error-icon" value="" placeholder="Email Address" required>
+                      <input type="email" name="email_field" class="form-control input-lg error-icon" value="" placeholder="Email Address" id="EmailInput" required>
                       <div class="invalid-feedback text-right">Look like this not an email</div>
 
                   </div><!--end form-group-->
                     <div class="form-group">
 
-                      <input type="password" name="password_field" class="form-control input-lg error-icon" value="" placeholder="Password" required>
+                      <input type="password" name="password_field" class="form-control input-lg error-icon" value="" placeholder="Password" id="PasswordInput" required>
                       <div class="invalid-feedback text-right">Password canot be empty</div>
 
                   </div><!--end formm-group-->
                     <div class="form-group">
-                    <button type="button" name="button" class="btn  input-group-btn text-light"> Claim your free trial</button>
+                    <button type="button" name="button" class="btn  input-group-btn text-light" onclick="validate_fields()"> Claim your free trial</button>
                   </div><!--end form-group-->
                     <div class="form-group form-check last-element-of-formm-group">
                       <input type="checkbox" name="Terms" class="form-check-input" value="">
@@ -121,4 +124,5 @@
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.js"></script>
   <script src="js\bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
 </html>
